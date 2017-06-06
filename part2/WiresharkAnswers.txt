@@ -1,3 +1,9 @@
-1. <ANSWER>
-2. <ANSWER>
-3. REQUESTS=<TYPE1>, <TYPE2>, ...
+1. A SYN packet sent to a closed port receives a RESET packet in
+response. This means the socket is closed, i.e. that no process is
+listening on said socket.
+
+2. A filtered port is one that received no packet in response. This
+means that a firewall or other intermediary has dropped the packet
+before it reached the desired port.
+
+3. REQUESTS=GET, OPTIONS

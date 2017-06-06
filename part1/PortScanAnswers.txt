@@ -1,6 +1,4 @@
-1. <COMMAND>
-2. <IP_ADDRESS>
-3. OS=<ANSWER>, VERSION=<ANSWER>
-4. <PORT1>: <APP1>, <PORT2>: <APP2>, ...
-5. SOFTWARE=<ANSWER>, VERSION=<ANSWER>
-6. SOFTWARE=<ANSWER>, VERSION=<ANSWER>, PORTS=<PORT1>, <PORT2>, ...
+1. sudo nmap -A -T4 -sS scanme.nmap.org
+2. 45.33.32.156
+4. 22: ssh, 80: http, 9929: Apache httpd 2.4.7 ((Ubuntu))
+6. SOFTWARE=Apache httpd, VERSION=2.4.7, PORTS=<PORT1>, <PORT2>, ...
