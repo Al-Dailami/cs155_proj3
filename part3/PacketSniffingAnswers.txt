@@ -2,7 +2,7 @@
 2a. <IP_ADDR>
 2b. <IP_ADDR>
 2c. <LOWEST_PORT>-<HIGHEST_PORT>
-3a. <IP_ADDR>
-3b. <IP_ADDR>
-3c. <NUM_SYNS>
+3a. <10.30.12.152>
+3b. <10.30.17.255>
+3c. <26076>
 4. <CHECKSUM>
